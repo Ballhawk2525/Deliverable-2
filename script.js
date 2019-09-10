@@ -1,14 +1,12 @@
-function setAttire() {
-    var eventType = ['casual', 'semi-formal', 'formal'] 
-    var tempFahr = []
-    var result = (eventType + tempFahr)
+let eventType = prompt ("What type of event are you attending? ");
+let tempFahr = prompt ("What is the temperature?");
 
-if (eventType === casual) {
+if (eventType === "casual") {
     console.log ("something comfy")
-} else if (eventType === semi-formal) {
+} else if (eventType === "semi-formal") {
     console.log ("a polo")
-} else if (eventType === formal) {
- console.log ("a suit")
+} else if (eventType === "formal") {
+    console.log ("a suit")
 }
 
 if (temperature < 54) {
@@ -18,6 +16,4 @@ if (temperature < 54) {
 } else if (temperature > 70) {
     console.log ("no jacket")
 } 
-}
 
-prompt ("Please enter event and temperature");
