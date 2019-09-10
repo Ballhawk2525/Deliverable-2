@@ -6,11 +6,11 @@ let
 
 
 if (eventType === "casual") {
-    console.log ("something comfy")
-} else if (eventType === "semi-formal") {
-    console.log ("a polo")
-} else if (eventType === "formal") {
-    console.log ("a suit")
+    ("something comfy")
+} else if {
+    ("a polo");
+} else if {
+    ("a suit");
 }
 
 if (temperature < 54) {
