@@ -21,5 +21,5 @@ if (tempFahr < 54) {
      question2 = "no jacket";
 } 
 
-result = "Because it is " + tempFahr + " outside and you are going to a " + eventType + " event, you should wear " + question1 + " and " + question2; 
+result = "Because it is " + tempFahr + " outside and you are going to a " + eventType + " event, you should wear " + question1 + " and " + question2 + "."; 
 console.log(result)
