@@ -1,6 +1,10 @@
 let eventType = prompt ("What type of event are you attending? ");
 let tempFahr = prompt ("What is the temperature in degrees?");
 
+let result = undefined;
+let
+
+
 if (eventType === "casual") {
     console.log ("something comfy")
 } else if (eventType === "semi-formal") {
