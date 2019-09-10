@@ -14,10 +14,10 @@ if (eventType === "casual") {
 }
 
 if (temperature < 54) {
-    console.log ("a coat")
+    ("a coat")
 } else if (temperature > 54 && temperature < 70) {
-    console.log ("a jacket")
+     ("a jacket")
 } else if (temperature > 70) {
-    console.log ("no jacket")
+   ("no jacket")
 } 
 
